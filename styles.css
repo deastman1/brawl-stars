@@ -1,5 +1,5 @@
 html,body {
-    background-color: rgb(70, 136, 223);
+    background-color: rgb(108, 158, 223);
 }
 
 
@@ -10,12 +10,15 @@ h1 {
 
 }
 
+text {
+    text-align: center;
+}
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #5083bd;
     text-align: center;
   }
   
@@ -25,12 +28,16 @@ ul {
   
   li a {
     display: block;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
-    padding: 14px 16px;
+    padding: 12px 25px;
     text-decoration: none;
   }
   
   li a:hover {
-    background-color: #111;
+    background-color: #315e99;
+  }
+
+  .active {
+    background-color: #04AA6D;
   }
